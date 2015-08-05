@@ -5,8 +5,8 @@ window.onload = function(){
 	var ctx = canvas.getContext("2d");
 	
 	//canvas dimensions
-	var W = window.innerWidth;
-	var H = window.innerHeight;
+	var W = window.innerWidth*0.74;
+	var H = window.innerHeight*0.735;
 	canvas.width = W;
 	canvas.height = H;
 	
@@ -18,7 +18,7 @@ window.onload = function(){
 		particles.push({
 			x: Math.random()*W, //x-coordinate
 			y: Math.random()*H, //y-coordinate
-			r: Math.random()*4+1, //radius
+			r: Math.random()*4+3, //radius
 			d: Math.random()*mp //density
 		})
 	}
@@ -28,7 +28,7 @@ window.onload = function(){
 	{
 		ctx.clearRect(0, 0, W, H);
 		
-		ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
+		ctx.fillStyle = "rgba(255, 255, 255, 0.5)";
 		ctx.beginPath();
 		for(var i = 0; i < mp; i++)
 		{

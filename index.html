@@ -5,7 +5,17 @@
 		<meta name="author" content="i hope project">
 		<link rel="stylesheet" href="style/style.css">
 		<link rel="stylesheet" href="style/proto.css">
+
+		<link rel="stylesheet" href="style/flashblock.css">
+		<link rel="stylesheet" href="style/360player.css">
+		<link rel="stylesheet" href="style/360player-visualization.css">
+		
+
 		<script type="text/javascript" src="script/drop.js"></script>
+		<script type="text/javascript" src="script/berniecode-animator.js"></script>
+		<script type="text/javascript" src="script/soundmanager2.js"></script>
+		<script type="text/javascript" src="script/360player.js"></script>
+		<script type="text/javascript" src="script/jquery-2.1.4.js"></script>
 		<script type="text/javascript">
 			soundManager.setup({
 			  // path to directory containing SM2 SWF
@@ -58,9 +68,20 @@
 		        </label>
 		    </div>
 			<div class="screen">
-				<canvas class="drop" id="drop">
-				</canvas>
-
+				<div class="effect">
+					<canvas class="drop" id="drop">
+					</canvas>
+				</div>
+				<div class="visualizer">
+					<div class="ui360 ui360-vis">
+						<a href="resource/music/ihope.mp3"></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer"><br>
+				Made by Enkh-Amar. G<br>
+				Music : "I Hope" by Bostin (River Flows in You remix)<br>
+				Art : "Between" by sugarmints
 			</div>
 		</div>
 	</body>
