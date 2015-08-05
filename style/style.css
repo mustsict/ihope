@@ -1,0 +1,40 @@
+/*main style*/
+@font-face{
+	font-family: "Ubuntu";
+    src: url("../resource/font/UbuntuMonoRegular.eot");
+    src: url("../resource/font/UbuntuMonoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../resource/font/UbuntuMonoRegular.woff") format("woff"),
+    url("../resource/font/UbuntuMonoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "UbuntuBold";
+    src: url("../resource/font/UbuntuMonoBold.eot");
+    src: url("../resource/font/UbuntuMonoBold.eot?#iefix")format("embedded-opentype"),
+    url("../resource/font/UbuntuMonoBold.woff") format("woff"),
+    url("../resource/font/UbuntuMonoBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+	background-color: #ffffff;
+	font-family: 'Ubuntu';
+}
+.bdy{
+	margin-top: 5%;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.screen{
+	width: 100%;
+	height: 70%;
+	border: 1px solid #000;
+	background-color: #222222;
+	color: #FFFFFF;
+}
+.drop{
+    display: block;
+    position: absolute;
+}
